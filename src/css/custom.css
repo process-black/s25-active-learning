@@ -29,7 +29,18 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* Make footer darker */
+/* Dark frosted glass footer */
 .footer {
-  background-color: #1a1a1a !important;
+  background: rgba(26, 26, 26, 0.5) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Dark frosted glass navbar */
+.navbar {
+  background: rgba(26, 26, 26, 0.5) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }

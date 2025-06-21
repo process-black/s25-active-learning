@@ -3,18 +3,20 @@
  * and scoped locally.
  */
 
-.fullScreenContainer {
-  position: relative;
+.fixedVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
+  object-fit: cover;
+  z-index: -1;
+  display: block;
 }
 
-.fullScreenImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+.scrollableContent {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  background: transparent;
 }

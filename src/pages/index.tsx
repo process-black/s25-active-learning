@@ -10,12 +10,16 @@ export default function Home(): ReactNode {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <main className={styles.fullScreenContainer}>
-        <img 
-          src="https://files.slack.com/files-pri/T0HTW3H0V-F08NL1A4V61/podcast002.png?pub_secret=145e64449d" 
-          alt="Active Learning Podcast" 
-          className={styles.fullScreenImage}
-        />
+      <video 
+        src="/videos/rainbow.mp4"
+        className={styles.fixedVideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+      <main className={styles.scrollableContent}>
+        {/* Content goes here */}
       </main>
     </Layout>
   );
