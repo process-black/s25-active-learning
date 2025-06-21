@@ -1,8 +1,13 @@
-# Arts &amp; Humanities Active Learning
+---
+sidebar_position: 1
+sidebar_label: "Introduction"
+---
+
+# Arts & Humanities Active Learning
 
 Arts and humanities disciplines thrive with active learning approaches that emphasize critical thinking, interpretation, discussion, and creative expression. These fields naturally lend themselves to collaborative exploration of complex ideas and multiple perspectives.
 
-## Why Active Learning Works in Arts &amp; Humanities
+## Why Active Learning Works in Arts & Humanities
 
 Humanities education has always been about engagement with ideas, texts, and cultural artifacts. Active learning strategies formalize and enhance this natural tendency by:
 
@@ -20,10 +25,10 @@ Structured approaches to classroom discussion that move beyond simple Q&amp;A to
 ### Creative Expression
 Activities that engage students in creating original work while demonstrating understanding of course concepts.
 
-### Document &amp; Text Analysis
+### Document & Text Analysis
 Interactive methods for examining primary sources, literature, and cultural artifacts.
 
-### Role-Playing &amp; Simulations
+### Role-Playing & Simulations
 Experiential activities that help students understand historical contexts and different perspectives.
 
 ## Featured Activities

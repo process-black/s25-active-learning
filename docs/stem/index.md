@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+sidebar_label: "Introduction"
+---
+
 # STEM Active Learning
 
 Science, Technology, Engineering, and Mathematics disciplines benefit tremendously from active learning approaches that engage students in hands-on problem-solving, collaborative investigation, and real-world application.
