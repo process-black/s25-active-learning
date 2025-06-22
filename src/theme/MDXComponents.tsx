@@ -10,6 +10,12 @@ import {
   SEO,
 } from '@site/src/components/mk';
 import { ProjectileMotionSim } from '@site/src/components/physics-simulations';
+import {
+  CircuitBuilderSim,
+  ReactionRateSim,
+  VirtualGallerySim,
+  MapExplorerSim,
+} from '@site/src/components/digital-simulations';
 
 export default {
   ...MDXComponents,
@@ -21,4 +27,8 @@ export default {
   EmilyH1,
   SEO,
   ProjectileMotionSim,
+  CircuitBuilderSim,
+  ReactionRateSim,
+  VirtualGallerySim,
+  MapExplorerSim,
 };
