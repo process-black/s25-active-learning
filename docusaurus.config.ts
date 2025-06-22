@@ -71,7 +71,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'https://res.cloudinary.com/dfnq1g0fu/video/upload/f_gif,w_600,q_80/v1750590299/ckpvuqcw6vehom4mdkli.gif',
+    image: 'https://res.cloudinary.com/dfnq1g0fu/image/upload/v1750596320/social-card-500_wlfoz1.gif',
     navbar: {
       title: 'Active Learning',
       logo: {
