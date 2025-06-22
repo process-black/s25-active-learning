@@ -1,0 +1,56 @@
+# Video Component Test
+
+This page tests the custom Video components that auto-import into MDX.
+
+## LoopingVideo Component
+
+Here's the video from the landing page using our custom LoopingVideo component:
+
+<LoopingVideo url="https://res.cloudinary.com/dfnq1g0fu/video/upload/v1750590301/j5y2p1kowvlmlufpdh1l.mp4" />
+
+## LoopingVideo Features
+
+The LoopingVideo component:
+- Auto-plays and loops continuously
+- Muted by default (browser requirement for autoplay)
+- No controls by default (cleaner look)
+- Auto-fits to markdown width (100%)
+- Includes proper spacing and margins
+
+## LoopingVideo with Controls
+
+<LoopingVideo url="https://res.cloudinary.com/dfnq1g0fu/video/upload/v1750590301/j5y2p1kowvlmlufpdh1l.mp4" controls />
+
+## Regular Video Component
+
+Basic video with controls (for comparison):
+
+<Video url="https://res.cloudinary.com/dfnq1g0fu/video/upload/v1750590301/j5y2p1kowvlmlufpdh1l.mp4" />
+
+## FloatingVideo Component
+
+<FloatingVideo url="https://res.cloudinary.com/dfnq1g0fu/video/upload/v1750590301/j5y2p1kowvlmlufpdh1l.mp4" float="right" />
+
+The FloatingVideo component allows text to wrap around it. This video is floating to the right at 50% width. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This video floats to the left. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+
+<FloatingVideo url="https://res.cloudinary.com/dfnq1g0fu/video/upload/v1750590301/j5y2p1kowvlmlufpdh1l.mp4" float="left" />
+
+This video floats to the left. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.This video floats to the left. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+
+<div style={{clear: 'both'}}></div>
+
+## InlineFloatingVideo Component
+
+This paragraph contains an <InlineFloatingVideo url="https://res.cloudinary.com/dfnq1g0fu/video/upload/v1750590299/ckpvuqcw6vehom4mdkli.mp4" width="150px" float="right" /> inline floating video that allows text to wrap around it while maintaining normal line height. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Another paragraph with <InlineFloatingVideo url="https://res.cloudinary.com/dfnq1g0fu/video/upload/v1750590299/ckpvuqcw6vehom4mdkli.mp4" width="180px" float="left" /> a left-floating video. The text wraps around naturally while keeping its normal line spacing. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+
+## InlineVideo Component (for comparison)
+
+This is a paragraph with an <InlineVideo url="https://res.cloudinary.com/dfnq1g0fu/video/upload/v1750590299/ckpvuqcw6vehom4mdkli.mp4" width="150px" /> inline video that flows with the text and doesn't break the paragraph structure. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+Here's another paragraph with a larger <InlineVideo url="https://res.cloudinary.com/dfnq1g0fu/video/upload/v1750590299/ckpvuqcw6vehom4mdkli.mp4" width="200px" /> inline video in the middle of the text flow. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+## How It Works
+
+Video, LoopingVideo, FloatingVideo, and InlineVideo components are automatically available in all MDX files thanks to the `/src/theme/MDXComponents.tsx` file that extends the global MDX scope.
