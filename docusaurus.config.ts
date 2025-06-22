@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Active Learning',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Interactive teaching methods and resources for educators',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -71,7 +71,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'https://res.cloudinary.com/dfnq1g0fu/video/upload/f_gif,w_600,q_80/v1750590299/ckpvuqcw6vehom4mdkli.gif',
     navbar: {
       title: 'Active Learning',
       logo: {
