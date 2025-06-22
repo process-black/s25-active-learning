@@ -72,6 +72,11 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'https://res.cloudinary.com/dfnq1g0fu/image/upload/v1750596320/social-card-500_wlfoz1.gif',
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: 'Active Learning',
       logo: {
