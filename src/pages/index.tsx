@@ -10,8 +10,8 @@ export default function Home(): ReactNode {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <video 
-        src="https://res.cloudinary.com/dfnq1g0fu/video/upload/v1750590301/j5y2p1kowvlmlufpdh1l.mp4"
+      <video
+        src="https://res.cloudinary.com/dfnq1g0fu/video/upload/v1750678270/ai-lab-with-fireworks_ajfkib.mp4"
         className={styles.fixedVideo}
         autoPlay
         loop
