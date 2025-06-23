@@ -78,18 +78,15 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Active Learning',
+      // Display "Home" as the brand link text
+      title: 'Home',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Active Learning Logo',
         src: 'img/rainbow-bot.jpg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Docs',
-        },
+        // Explicit nav items so they appear in the mobile menu
+        {to: '/docs/intro', label: 'Docs', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
